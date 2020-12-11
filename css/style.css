@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  /* a cada 1rem será considera 10px */
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* hero */
+section.hero {
+  background: url(/img/home/home.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+section.hero header.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 90%;
+  padding: 10px 0 10px 0;
+}
+
+header.header {
+  width: 90%;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.frase-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+
+  margin: auto;
+  /*   background-color: aliceblue; */
+}
+
+section.frase-menu .frase P {
+  font-size: 8rem;
+  color: #52c3b6;
+}
+
+section.frase-menu .frase .click-fonte {
+  margin-top: 20rem;
+  font-family: "Clicker Script", cursive;
+  color: #ffffff;
+}
+
+section.frase-menu aside.menu ul {
+  display: flex;
+  flex-direction: column;
+}
+section.frase-menu aside.menu ul li {
+  margin: 5px;
+  padding: 5px;
+}
+
+section.frase-menu aside.menu ul li a {
+  font-size: 3.5rem;
+  color: #ffffff;
+  line-height: 4.7rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+section.hero section.social-medias {
+  width: 90%;
+  height: 100%;
+}
+section.hero section.social-medias ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15rem;
+}
+
+section.hero section.social-medias ul li {
+  margin: 5px;
+  padding: 5px;
+}
+
+section.hero section.social-medias ul li a img {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+
+  border: 3px solid green;
+  padding: 5px;
+}
+
+section.cards-sobre {
+  align-items: center;
+  padding: 10px calc((100% - 80%) / 2);
+  background: #8d9700;
+}
+
+section.cards-sobre .sobre h2 {
+  margin-top: 7rem;
+  font-size: 8rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  color: #f7ef8a;
+}
+section.cards-sobre .sobre img {
+  margin: 10px auto;
+}
+
+div.sobre-mim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 5rem auto;
+}
+
+div.sobre-mim div.sobre-mim-foto img {
+  width: 40rem;
+  height: 55rem;
+  border-radius: 10%;
+}
+
+div.sobre-mim div.card-texto {
+  font-size: 2rem;
+  flex: 2 1 45rem;
+  margin: 4rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+div.sobre-mim div.card-texto p:first-of-type:first-letter {
+  color: #f7ef8a;
+  font-weight: 900;
+  font-size: 7rem;
+  float: left;
+  padding: 25px 10px 0 0;
+}
+
+section.contato {
+  padding: 18rem calc((100% - 80%) / 2);
+  margin: auto;
+  background: #53872c;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.contato .img-logo img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+section.contato .lets-talk h2 {
+  font-size: 4.2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+section.contato .lets-talk h3 {
+  font-size: 2.4rem;
+  color: #ffffff;
+  text-transform: capitalize;
+}
