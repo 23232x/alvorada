@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="30" height="30" transform="translate(1368 898)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="share" transform="translate(-1368 -898)" clip-path="url(#clip-path)">
+    <g id="share-2" data-name="share" transform="translate(1369.25 898)">
+      <path id="Path_69" data-name="Path 69" d="M26.562,5A4.062,4.062,0,1,1,22.5.938,4.062,4.062,0,0,1,26.562,5Zm0,0" fill="#fff"/>
+      <path id="Path_70" data-name="Path 70" d="M22.5,10a5,5,0,1,1,5-5A5.005,5.005,0,0,1,22.5,10Zm0-8.125A3.125,3.125,0,1,0,25.625,5,3.129,3.129,0,0,0,22.5,1.875Zm0,0" fill="#fff"/>
+      <path id="Path_71" data-name="Path 71" d="M26.562,25A4.062,4.062,0,1,1,22.5,20.937,4.062,4.062,0,0,1,26.562,25Zm0,0" fill="#fff"/>
+      <path id="Path_72" data-name="Path 72" d="M22.5,30a5,5,0,1,1,5-5A5,5,0,0,1,22.5,30Zm0-8.125A3.125,3.125,0,1,0,25.625,25,3.129,3.129,0,0,0,22.5,21.875Zm0,0" fill="#fff"/>
+      <path id="Path_73" data-name="Path 73" d="M9.063,15A4.063,4.063,0,1,1,5,10.938,4.062,4.062,0,0,1,9.063,15Zm0,0" fill="#fff"/>
+      <path id="Path_74" data-name="Path 74" d="M5,20a5,5,0,1,1,5-5,5,5,0,0,1-5,5Zm0-8.125A3.125,3.125,0,1,0,8.125,15,3.128,3.128,0,0,0,5,11.875Zm0,0" fill="#fff"/>
+      <path id="Path_75" data-name="Path 75" d="M7.951,14.4a1.25,1.25,0,0,1-.62-2.336l11.6-6.612a1.25,1.25,0,1,1,1.238,2.173l-11.6,6.612a1.242,1.242,0,0,1-.617.164Zm0,0" fill="#fff"/>
+      <path id="Path_76" data-name="Path 76" d="M19.549,24.713a1.242,1.242,0,0,1-.618-.164l-11.6-6.612A1.25,1.25,0,0,1,8.57,15.764l11.6,6.612a1.25,1.25,0,0,1-.62,2.336Zm0,0" fill="#fff"/>
+    </g>
+  </g>
+</svg>
